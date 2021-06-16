@@ -114,9 +114,16 @@
 
           background: url(assets/img/hompage.jpg) no-repeat center center fixed;
           background-size: cover;
-          display: grid;
+          
 
           height: 96vh;
+        }
+
+        .overlay {
+          background-color: rgba(var(--color-white-rgb), .5);
+          display: grid;
+          height: 100vh;
+          width: 100vw;
         }
 
         .homepage-content {
@@ -275,6 +282,7 @@
        -->
 
       <div class="homepage-container">
+        <div class="overlay">
 
         <div class="homepage-content">
             <h1 class="homepage-title">Pioneering the future of luxury lifestyle.</h1>
@@ -283,6 +291,7 @@
               <a href="" class="">Apply</a><a href="about.html" class="">Learn More</a>
           </div>
         </div>
+      </div>
 
       </div>
 
